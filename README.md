@@ -185,15 +185,6 @@ When scanning, consider the following:
 - Auto-focus can cause lags in detection as the camera adjusts focus. Consider disabling it or using a fixed-focus camera with the subject positioned at the focal point.
 - Exposure adjustment on cameras can cause lags in detection. Consider disabling it or having a fixed white backdrop.
 
-## Example Setup
-
-- Purpose: To scan QR code stickers on paper cards and plastic bags.
-- Camera: [Microsoft LifeCam HD-3000](http://www.newegg.com/Product/Product.aspx?Item=9SIA4RE40S4991), 720p, fixed focus, around $30 USD.
-- Small support to ensure camera is focused on subject.
-- White paper backdrop to mitigate exposure adjustment.
-
-![Setup](https://raw.githubusercontent.com/schmich/instascan/master/assets/setup.jpg)
-
 ## Credits
 
 Powered by the [Emscripten JavaScript build](https://github.com/kig/zxing-cpp-emscripten) of the [C++ port](https://github.com/glassechidna/zxing-cpp) of the [ZXing Java library](https://github.com/zxing/zxing).
